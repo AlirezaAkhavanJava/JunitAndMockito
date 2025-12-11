@@ -9,9 +9,13 @@ public class MathOperations {
 
 
     public boolean checkIfEven(int number) {
-        if (number == 0){
+        if (number == 0) {
             return false;
         }
         return Math.abs(number) % 2 == 0;
+    }
+
+    public Integer sum(int a, int b) {
+        return a + b;
     }
 }
